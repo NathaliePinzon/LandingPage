@@ -1,0 +1,266 @@
+body {
+    font-family: sans-serif;
+}
+
+.welcome {
+    margin: auto;
+    padding: 10.5rem 12.3rem;
+    background: url('../images/Header.jpg') no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.services {
+    margin: auto;
+    padding: 8rem 12.3rem 0;
+}
+
+.box {
+    padding: 2rem 3rem;
+}
+
+.h2, h2 {
+    font-size: 55px;
+    line-height: 0.9;
+}
+
+.text {
+    font-size: 35px;
+    display: block;
+}
+
+.col-md-6 {
+    padding: 0;
+}
+
+.information .btn {
+    margin-top: 2rem;
+    border-radius: 15px;
+    padding: 10px 3rem;
+    margin-right: .9rem;
+    background: #0072ee ;
+    border: #0072ee ;
+    font-size: 20px;
+}
+
+.services {
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.2;
+    padding: 2rem 0;
+  }
+
+.content {
+    font-size: 15px;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.services .col-lg-6.col-sm-6 {
+    margin-bottom: 10rem;
+}
+
+.explore {
+    position: absolute;
+    top: 100%;
+    left: 35%;
+}
+
+.services button {
+    position: relative;
+    display: inline-flex;
+    margin-top: 1rem;
+    background: #0072ee ;
+    border: #0072ee ;
+    font-size: 20px;
+    border-radius: 15px;
+    padding: .6rem 2rem;
+  }
+
+  #park, #northshore{
+    background: #dff6fd;
+  }
+  .description .col-lg-6.col-sm-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .description .image {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .description img {
+    vertical-align: middle;
+    border-style: none;
+    height: 100%;
+  }
+
+  .description .content {
+    font-size: 15px;
+    width: 75%;
+    margin: auto;
+    padding: 5rem 0 0;
+  }
+
+  .description .h2, .description h2 {
+    font-size: 60px;
+    line-height: 1.5;
+  }
+
+
+  .ourServices {
+    color: #16798a;
+    font-size: 19px;
+    font-weight: 600;
+  }
+
+  .description .content ul {
+    margin: 0;
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 2;
+  }
+
+  .description .content ul li {
+    list-style: none;
+    color: #16798a;
+    font-size: 18px;
+    font-weight: 600;
+    width: 50%;
+  }
+.description .content ul li::before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+}
+
+#nationalDental, #chaseDental {
+    background: #eaeaea;
+    margin-top: 2rem;
+}
+
+#nationalDental  .ourServices, #nationalDental .description .content ul li , #chaseDental .ourServices, #chaseDental .description .content ul li{
+    color: #007486;
+}
+
+#northshore {
+    margin-top: 2rem;
+}
+
+#northshore .description .h2, #northshore .description h2 {
+    font-size: 60px;
+    line-height: 1;
+    width: 70%;
+    margin-bottom: 1.5rem;
+  }
+
+@media screen and (max-width: 767px) {
+    .welcome {
+        padding: 10.5rem 2rem;
+        background-position: left;
+    }
+    .welcome img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .box {
+        padding: 2rem;
+    }
+
+    .information .btn {
+        display: block;
+    }
+
+    .welcome {
+        padding: 10.5rem 2rem 5rem;
+        background-position: left;
+    }
+    .services {
+        padding: 8rem 0 0;
+    }
+    .explore {
+        left: 30%;
+    }
+    .description .content ul {
+        display: block;
+    }
+    .description .content ul li {
+        width: 100%;
+    }
+    .description .h2, .description h2 {
+        line-height: 1;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container, .container-md, .container-sm {
+        max-width: 100%;
+    }
+    .welcome {
+        background-position: left;
+        padding: 10.5rem 2rem 5rem;
+    }
+    .welcome img {
+        max-width: 100%;
+        height: auto;
+    }
+    .h2, h2 {
+        font-size: 45px;
+    }
+    .text {
+        font-size: 30px;
+    }
+    .information .btn {
+        margin-right: .1rem;
+        font-size: 18px;
+    }
+    .box {
+        padding: 1rem 0;
+    }
+    .services {
+        margin: auto;
+        padding: 8rem 2rem 0;
+    }
+    .title {
+        font-size: 29px;
+    }
+    .explore {
+        left: 30%;
+    }
+    .description .content {
+        font-size: 13px;
+        padding: 1rem 0 0;
+    }
+    .description .h2, .description h2 {
+        font-size: 50px;
+        line-height: 1;
+    }
+    .ourServices {
+        font-size: 17px;
+    }
+    .description .content ul li {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    #northshore .description .h2, #northshore .description h2 {
+        font-size: 50px;
+        line-height: 1;
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+}
+
+
